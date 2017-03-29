@@ -151,8 +151,8 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="[SP/CO8] A3 - Antistasi Altis";
-		overviewText="Build FIA Army from scratch and defeat the AAF and CSAT forces in a whole map Dynamic Mission.";
+		briefingName="[SP/CO50] A3 - Antistasi Altis (Green)";
+		overviewText="Build FIA an Army from scratch and defeat the NATO forces in a whole map Dynamic Mission.";
 		resistanceWest=0;
 		resistanceEast=1;
 		startWeather=0.1;
