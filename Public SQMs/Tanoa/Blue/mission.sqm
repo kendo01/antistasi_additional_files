@@ -35,7 +35,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=18;
+		items=12;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -94,71 +94,31 @@ class AddonsMetaData
 		};
 		class Item8
 		{
-			className="task_force_radio_items";
-			name="task_force_radio_items";
-			author="[TF]Nkey";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
-		class Item9
-		{
 			className="A3_Boat_F";
 			name="Arma 3 Alpha - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item10
+		class Item9
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item10
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
-		{
-			className="ace_cargo";
-			name="ACE3 - Cargo";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item13
+		class Item11
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
-		};
-		class Item14
-		{
-			className="ace_rearm";
-			name="ACE3 - Rearm";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item15
-		{
-			className="ace_dragging";
-			name="ACE3 - Dragging";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item16
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item17
-		{
-			className="FIA_replacment";
-			name="FIA_replacment";
 		};
 	};
 };
@@ -4217,7 +4177,7 @@ class Mission
 			name="respawn_west";
 			text="Your Headquarters";
 			type="hd_flag";
-			colorName="ColorGUER";
+			colorName="ColorWEST";
 			id=1056;
 			atlOffset=1.8539791e+031;
 		};
