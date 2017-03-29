@@ -536,10 +536,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={6765.8857,105.92204,15323.184};
-			name="respawn_west";
+			name="respawn_guer";
 			text="Your Headquarters";
 			type="hd_flag";
-			colorName="ColorWEST";
+			colorName="ColorGUER";
 			angle=1.7398218;
 			id=283;
 		};

@@ -27,10 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-addons[]=
-{
-
-};
+addons[]={};
 class AddonsMetaData
 {
 	class List
@@ -139,12 +136,61 @@ class AddonsMetaData
 randomSeed=1830176;
 class ScenarioData
 {
-	author="Toshiroh";
+	author="Toshiroh/Ken";
+	respawnDialog=0;
+	respawn=3;
+	respawnDelay=30.000002;
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Counter";
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
 	class Intel
 	{
+		briefingName="[SP/CO50] A3 - Antistasi Napf (Green)";
+		overviewText="Build FIA an Army from scratch and defeat the NATO forces in a whole map Dynamic Mission.";
 		resistanceWest=0;
 		resistanceEast=1;
 		timeOfChanges=7144.6616;
@@ -547,10 +593,10 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={11181.233,138.13196,7839.2686};
-			name="respawn_west";
+			name="respawn_guer";
 			text="Your Headquarters";
 			type="hd_flag";
-			colorName="ColorWEST";
+			colorName="ColorGUER";
 			id=28;
 		};
 		class Item29
